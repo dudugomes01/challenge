@@ -22,5 +22,5 @@ app.use((err: Error, req: express.Request, res: express.Response, next: express.
 if (process.env.NODE_ENV !== 'test') {
   app.listen(PORT, () => logger.info(`App running on port ${PORT}`));
 }
-
+  
 export default app;
