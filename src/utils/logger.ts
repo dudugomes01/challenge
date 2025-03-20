@@ -10,6 +10,6 @@ const logger = {
         console.debug(`[DEBUG] ${new Date().toISOString()} - ${message}`);
       }
     }
-  };
-  
+  };  
+
   export default logger;
